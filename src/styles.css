@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background:
+    radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.7), transparent 280px),
+    radial-gradient(circle at 85% 20%, rgba(255, 244, 200, 0.45), transparent 320px),
+    linear-gradient(135deg, #d8cdb8 0%, #eee6d7 45%, #cfc1aa 100%);
+  background-attachment: fixed;
+}
+
+body {
+  min-height: 100vh;
+}
+
+app-root {
+  display: block;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
